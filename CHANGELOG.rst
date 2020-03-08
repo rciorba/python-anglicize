@@ -2,7 +2,7 @@
 Changelog
 =========
 
-0.0.3 (2020-MM-DD)
+0.0.3 (2020-03-08)
 ------------------
 
 * Fix rationale example.

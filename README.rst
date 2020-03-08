@@ -65,7 +65,7 @@ To use::
     anglicize("Łukasz") == "Lukasz"
 
     # or use it to sort a list:
-    sorted(["Ana", "Łukasz", "Zan"], key=anglicize) == ["Ana", "Łukasz", "Zan"]
+    sorted(["Ana", "Łukasz", "Zack"], key=anglicize) == ["Ana", "Łukasz", "Zack"]
 
     # there we go, that's much better than this:
     sorted(["Ana", "Łukasz", "Zack"]) == ["Ana", "Zack", "Łukasz"]
@@ -123,7 +123,8 @@ Contributing
 
 Do you know a language written in a Latin alphabet and want to check it's correctly handled? Have a
 look in ``tests/test_anglicize.py``. If the language is there please check all "special" letters are
-handled. This list has been mostly compiled off of Wikipedia, so I would not be surprised to hear about.
+handled. This list has been mostly compiled off of Wikipedia, so I would not be surprised to hear
+about errors :)
 
 You can either make the changes and submit a PR or just create an issue mentioning
 - language
