@@ -65,7 +65,7 @@ To use::
     anglicize("Łukasz") == "Lukasz"
 
     # or use it to sort a list:
-    sorted(["Luke", "Łukasz", "Zan"], key=anglicize) == ["Luke", "Łukasz", "Zan"]
+    sorted(["Ana", "Łukasz", "Zan"], key=anglicize) == ["Ana", "Łukasz", "Zan"]
 
     # there we go, that's much better than this:
     sorted(["Ana", "Łukasz", "Zack"]) == ["Ana"", "Zack", "Łukasz]
