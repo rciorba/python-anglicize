@@ -19,7 +19,7 @@ def read(*names, **kwargs):
 
 setup(
     name="anglicize",
-    version="0.0.1",
+    version="0.0.2",
     license="BSD-2-Clause",
     description="A simple package to help sort non-English names.",
     long_description="%s\n%s"
