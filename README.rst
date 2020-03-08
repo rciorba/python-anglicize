@@ -75,9 +75,9 @@ Rationale
 
 The purpose of this library is to help you sort non-English names writen in Latin-based alphabets.
 
-Different languages have wildly different rules for sorting, for example ``Å`` comes after ``Z`` in
-Finnish but after ``A`` in Norwegian. The approach taken here is to treat visually similar letters
-the same, so basically ``ÅÄĂÂ`` (and others) should all become ``A``.
+Different languages have wildly different rules for sorting, for example ``Ö`` comes after ``Z`` in
+Finnish but after ``O`` in Hungarian. The approach taken here is to treat visually similar letters
+the same, so basically ``ÖÔÓÒṌṎ`` (and others) should all become ``O``.
 
 Handling letters that have little similarity to A-Z
 ===================================================
