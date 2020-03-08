@@ -68,12 +68,12 @@ To use::
     sorted(["Ana", "Łukasz", "Zan"], key=anglicize) == ["Ana", "Łukasz", "Zan"]
 
     # there we go, that's much better than this:
-    sorted(["Ana", "Łukasz", "Zack"]) == ["Ana"", "Zack", "Łukasz]
+    sorted(["Ana", "Łukasz", "Zack"]) == ["Ana", "Zack", "Łukasz"]
 
 Rationale
 =========
 
-The purpose of this library is to help you sort non-English names writen in latin-based alphabets.
+The purpose of this library is to help you sort non-English names writen in Latin-based alphabets.
 
 Different languages have wildly different rules for sorting, for example ``Å`` comes after ``Z`` in
 Finnish but after ``A`` in Norwegian. The approach taken here is to treat visually similar letters
@@ -121,7 +121,7 @@ Languages covered
 Contributing
 ============
 
-Do you know a language written in a latin alphabet and want to check it's correctly handled? Have a
+Do you know a language written in a Latin alphabet and want to check it's correctly handled? Have a
 look in ``tests/test_anglicize.py``. If the language is there please check all "special" letters are
 handled. This list has been mostly compiled off of Wikipedia, so I would not be surprised to hear about.
 
@@ -132,6 +132,6 @@ You can either make the changes and submit a PR or just create an issue mentioni
 Development
 ===========
 
-To run tests for all python environments run::
+To run tests for all Python environments run::
 
     tox
